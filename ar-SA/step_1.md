@@ -1,6 +1,6 @@
-JSON تنسق يُستخدم لتخزين البيانات ومشاركتها. ويُستخدم تنسيق JSON (تُنطق جاسون) كاختصار لـ JavaScript Object Notation (ترميز كائنات جافا سكريبت)، لكنها لا تُستخدم مع JavaScript فقط. 
+JSON is a format for storing and sharing data. JSON (say Jason) stands for JavaScript Object Notation, but it isn't just used with JavaScript.
 
-وجدير بالذكر أن JSON تنسيق نصي يمكن استخدامه في التعليمات البرمجية ويسهل على المستخدمين قراءته. 
+JSON is a text format that can be used in code and is fairly easy for people to read.
 
 ```json
 {
@@ -12,9 +12,9 @@ JSON تنسق يُستخدم لتخزين البيانات ومشاركتها. �
 }
 ```
 
-يكون **كائن** JSON في شكل قائمة بأزواج المفتاح-القيمة داخل قوسين معقوصين `{}`.
+A JSON **object** is a list of key-value pairs inside curly brackets `{}`.
 
-كما يمكن أن تكون القيمة في شكل **قائمة** داخل قوسين معقوفين `[]`:
+A value can also be a **list** inside square brackets `[]`:
 
 ```json
 {
