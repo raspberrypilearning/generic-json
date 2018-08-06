@@ -1,6 +1,6 @@
-JSON 是用于储存和分享数据的一种格式。JSON（念 Jason）指 JavaScript 对象表示法，但其不只用于 JavaScript。 
+JSON is a format for storing and sharing data. JSON (say Jason) stands for JavaScript Object Notation, but it isn't just used with JavaScript.
 
-JSON 是一种文本格式，可在代码中使用且十分方便人们读取。 
+JSON is a text format that can be used in code and is fairly easy for people to read.
 
 ```json
 {
@@ -12,9 +12,9 @@ JSON 是一种文本格式，可在代码中使用且十分方便人们读取。
 }
 ```
 
-JSON **对象**指花括号 `{}` 内部的一列键值对。
+A JSON **object** is a list of key-value pairs inside curly brackets `{}`.
 
-值也可以是方括号 `[]` 内部的一个**列表**。
+A value can also be a **list** inside square brackets `[]`:
 
 ```json
 {
