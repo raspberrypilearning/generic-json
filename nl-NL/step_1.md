@@ -1,6 +1,6 @@
-JSON is a format for storing and sharing data. JSON (say Jason) stands for JavaScript Object Notation, but it isn't just used with JavaScript.
+JSON is een indeling voor het opslaan en delen van gegevens. JSON (zeg Jeson) staat voor JavaScript Object Notation, maar het wordt niet alleen gebruikt met JavaScript.
 
-JSON is a text format that can be used in code and is fairly easy for people to read.
+JSON is een tekstindeling die in code wordt gebruikt en die mensen gemakkelijk kunnen lezen.
 
 ```json
 {
@@ -12,9 +12,9 @@ JSON is a text format that can be used in code and is fairly easy for people to 
 }
 ```
 
-A JSON **object** is a list of key-value pairs inside curly brackets `{}`.
+Een JSON **object** is een lijst met sleutel-waarde combinaties binnen accolades `{}`.
 
-A value can also be a **list** inside square brackets `[]`:
+Een waarde kan ook een **list** (lijst) zijn tussen vierkante haken `[]`:
 
 ```json
 {
@@ -23,6 +23,6 @@ A value can also be a **list** inside square brackets `[]`:
   "power": 86,
   "intelligence": 12,
   "magic": 0,
-  "weapons" : ["club", "rock", "bone"]
+  "weapons": ["club", "rock", "bone"]
 }
 ```
