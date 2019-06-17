@@ -14,7 +14,7 @@ JSON is een tekstformaat dat in code wordt gebruikt en die mensen gemakkelijk ku
 
 Een JSON **object** is een lijst met sleutel-waarde combinaties binnen accolades `{}`.
 
-Een waarde kan ook een **list** (lijst) zijn tussen vierkante haken `[]`:
+Een waarde kan ook een **lijst** (list) zijn tussen vierkante haken `[]`:
 
 ```json
 {
