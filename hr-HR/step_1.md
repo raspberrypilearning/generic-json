@@ -14,7 +14,7 @@ JSON is a text format that can be used in code and is fairly easy for people to 
 
 A JSON **object** is a list of key-value pairs inside curly brackets `{}`.
 
-A value can also be a **list** inside square brackets `[]`:
+Vrijednost također može biti **lista** unutar uglatih zagrada `[]`:
 
 ```json
 {
