@@ -1,28 +1,28 @@
-JSON is a format for storing and sharing data. JSON (say Jason) stands for JavaScript Object Notation, but it isn't just used with JavaScript.
+JSON là một định dạng để lưu trữ và chia sẻ dữ liệu. JSON (đọc là Jason) là viết tắt của JavaScript Object Notation, nhưng nó không chỉ được sử dụng với JavaScript.
 
-JSON is a text format that can be used in code and is fairly easy for people to read.
+JSON là định dạng văn bản có thể được sử dụng trong mã và khá dễ đọc cho mọi người.
 
 ```json
 {
-  "name": "Ogre",
-  "size": 90,
-  "power": 86,
-  "intelligence": 12,
-  "magic": 0
+  "tên": "Ogre",
+  "kích thước": 90,
+  "năng lực": 86,
+  "thông minh": 12,
+  "kỳ diệu": 0
 }
 ```
 
-A JSON **object** is a list of key-value pairs inside curly brackets `{}`.
+JSON **đối tượng** là một danh sách các cặp có giá trị quan trọng bên trong dấu ngoặc cong `{}`.
 
-A value can also be a **list** inside square brackets `[]`:
+Giá trị cũng có thể là một **danh sách** bên trong dấu ngoặc vuông `[]`:
 
 ```json
 {
-  "name": "Ogre",
-  "size": 90,
-  "power": 86,
-  "intelligence": 12,
-  "magic": 0,
-  "weapons" : ["club", "rock", "bone"]
+  "tên": "Ogre",
+  "kích thước": 90,
+  "năng lực": 86,
+  "thông minh": 12,
+  "kỳ diệu": 0,
+  "vũ khí": [ "dùi cui", "đá "," xương "]
 }
 ```
