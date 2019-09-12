@@ -1,28 +1,28 @@
-JSON is a format for storing and sharing data. JSON (say Jason) stands for JavaScript Object Notation, but it isn't just used with JavaScript.
+JSON je format za pohranu i dijeljenje podataka. JSON (reci Jason) označava JavaScript objektnu notaciju, ali se ne upotrebljava samo za JavaScript.
 
-JSON is a text format that can be used in code and is fairly easy for people to read.
+JSON je tekstualni format koji se može upotrebljavati u kôdu i prilično se jednostavno čita.
 
 ```json
 {
-  "name": "Ogre",
-  "size": 90,
-  "power": 86,
-  "intelligence": 12,
-  "magic": 0
+  "ime" "Div"
+  "velicina": 90,
+  "snaga" 86,
+  "inteligencija": 12,
+  "carolija": 0
 }
 ```
 
-A JSON **object** is a list of key-value pairs inside curly brackets `{}`.
+JSON **objekt** popis je parova ključ-vrijednost unutar vitičastih zagrada `{}`.
 
-Vrijednost također može biti **lista** unutar uglatih zagrada `[]`:
+Vrijednost također može biti **popis** unutar uglatih zagrada `[]`:
 
 ```json
 {
-  "name": "Ogre",
-  "size": 90,
-  "power": 86,
-  "intelligence": 12,
-  "magic": 0,
-  "weapons" : ["club", "rock", "bone"]
+  "ime": "Div",
+  "velicina": 90,
+  "snaga": 86,
+  "inteligencija": 12,
+  "carolija": 0,
+  "oruzja": [ "palica", „stijena "," kost "]
 }
 ```
