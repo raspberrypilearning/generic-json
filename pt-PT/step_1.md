@@ -12,7 +12,7 @@ JSON é um formato de texto que pode ser usado em código e é bastante fácil p
 }
 ```
 
-Um objeto JSON **** é uma lista de pares de valores-chave dentro de chavetas `{}`.
+Um **objeto** JSON é uma lista de pares de valores-chave dentro de chavetas `{}`.
 
 Um valor também pode ser um **lista** dentro de parêntesis rectos `[]`:
 
