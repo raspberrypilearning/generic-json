@@ -1,28 +1,28 @@
-JSON is a format for storing and sharing data. JSON (say Jason) stands for JavaScript Object Notation, but it isn't just used with JavaScript.
+JSON es un formato para almacenar y compartir datos. JSON (se pronuncia 'yéison') es un acrónimo de JavaScript Object Notation (notación de objeto de Javascript) pero no solamente se usa con JavaScript.
 
-JSON is a text format that can be used in code and is fairly easy for people to read.
+JSON es un formato de texto que se puede usar en código y es bastante fácil de leer para las personas.
 
 ```json
 {
-  "name": "Ogre",
-  "size": 90,
-  "power": 86,
-  "intelligence": 12,
-  "magic": 0
+  "nombre": "Ogro",
+  "tamaño": 90,
+  "poder": 86,
+  "inteligencia": 12,
+  "magia": 0
 }
 ```
 
-A JSON **object** is a list of key-value pairs inside curly brackets `{}`.
+Un **objeto** JSON es una lista de pares clave-valor escritas entre llaves `{}`.
 
-A value can also be a **list** inside square brackets `[]`:
+Un valor también puede ser una **lista** entre corchetes cuadrados `[]`:
 
 ```json
 {
-  "name": "Ogre",
-  "size": 90,
-  "power": 86,
-  "intelligence": 12,
-  "magic": 0,
-  "weapons" : ["club", "rock", "bone"]
+  "nombre": "Ogro",
+  "tamaño": 90,
+  "poder": 86,
+  "inteligencia": 12,
+  "magia": 0,
+  "armas": ["garrote", "piedra", " hueso "]
 }
 ```
