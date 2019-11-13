@@ -1,4 +1,4 @@
-JSON is a format for storing and sharing data. JSON (say Jason) stands for JavaScript Object Notation, but it isn't just used with JavaScript.
+JSON — це формат для зберігання та обміну даними. JSON (вимовляється Джейсон) розшифровується як JavaScript Object Notation, але він використовується не тільки з JavaScript.
 
 JSON is a text format that can be used in code and is fairly easy for people to read.
 
