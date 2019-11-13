@@ -1,10 +1,10 @@
 JSON — це формат для зберігання та обміну даними. JSON (вимовляється Джейсон) розшифровується як JavaScript Object Notation, але він використовується не тільки з JavaScript.
 
-JSON is a text format that can be used in code and is fairly easy for people to read.
+JSON — це текстовий формат, що можна як використовувати в коді, так і досить легко читати.
 
 ```json
 {
-  "name": "Ogre",
+  "name": "Людожер",
   "size": 90,
   "power": 86,
   "intelligence": 12,
@@ -12,17 +12,17 @@ JSON is a text format that can be used in code and is fairly easy for people to 
 }
 ```
 
-A JSON **object** is a list of key-value pairs inside curly brackets `{}`.
+**Об'єкт** JSON — це список пар ключ-значення всередині фігурних дужок `{}`.
 
-A value can also be a **list** inside square brackets `[]`:
+Значення також може бути **списком** у квадратних дужках `[]`:
 
 ```json
 {
-  "name": "Ogre",
+  "name": "Людожер",
   "size": 90,
   "power": 86,
   "intelligence": 12,
   "magic": 0,
-  "weapons" : ["club", "rock", "bone"]
+  "weapons" : ["палиця", "камінь", "кістка"]
 }
 ```
