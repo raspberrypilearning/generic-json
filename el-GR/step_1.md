@@ -1,28 +1,28 @@
-JSON is a format for storing and sharing data. JSON (say Jason) stands for JavaScript Object Notation, but it isn't just used with JavaScript.
+Το JSON είναι μια μορφή αποθήκευσης και κοινής χρήσης δεδομένων. Το JSON (προφέρεται τζέισον) σημαίνει JavaScript Object Notation (σημειογραφία αντικειμένων Javascript), αλλά δεν χρησιμοποιείται μόνο με την JavaScript.
 
-JSON is a text format that can be used in code and is fairly easy for people to read.
+Το JSON είναι μια μορφή κειμένου που μπορεί να χρησιμοποιηθεί στον προγραμματισμό και είναι αρκετά εύκολη για τους ανθρώπους να τη διαβάσουν.
 
 ```json
 {
-  "name": "Ogre",
-  "size": 90,
-  "power": 86,
-  "intelligence": 12,
-  "magic": 0
+  "Όνομα": "Ογκρ",
+  "μέγεθος": 90,
+  "ισχύς": 86,
+  "νοημοσύνη": 12,
+  "μαγεία": 0
 }
 ```
 
-A JSON **object** is a list of key-value pairs inside curly brackets `{}`.
+Ένα **αντικείμενο** JSON είναι μια λίστα ζευγών κλειδιού-τιμής μέσα σε άγκιστρα `{}`.
 
-A value can also be a **list** inside square brackets `[]`:
+Μια τιμή μπορεί επίσης να είναι μια λίστα **λίστα** εντός αγκυλών `[]`:
 
 ```json
 {
-  "name": "Ogre",
-  "size": 90,
-  "power": 86,
-  "intelligence": 12,
-  "magic": 0,
-  "weapons" : ["club", "rock", "bone"]
+  "όνομα": "Όγκρ",
+  "μέγεθος": 90,
+  "δύναμη": 86,
+  "νοημοσύνη": 12,
+  "μαγεία": 0,
+  "όπλα" : ["ρόπαλο", "πέτρα", "κόκκαλο"]
 }
 ```
