@@ -1,10 +1,10 @@
 ---
-title: What is JSON?
+title: Τι είναι το JSON;
 hero_image: images/banner.png
-description: What is JSON?
+description: Τι είναι το JSON;
 original_url:
 theme: cc-prototype
-duration: 1
+duration: 1 #1, 2 or 3
 listed: false
 ingredient: true
 copyedit: false
