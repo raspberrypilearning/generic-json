@@ -1,28 +1,27 @@
-JSON is a format for storing and sharing data. JSON (say Jason) stands for JavaScript Object Notation, but it isn't just used with JavaScript.
+JSON आंकड़े संचित करने और उन्हें साझा करने का एक प्रारूप है। JSON (जेसन) अपने आप में एक संकेताक्षर है जिसका विस्तृत रूप है: JavaScript Object Notation अर्थात् जावा-स्क्रिप्ट प्रकल्प संकेतन, यद्यपि इसका उपयोग केवल जावा-स्क्रिप्ट तक सीमित नहीं है।
 
-JSON is a text format that can be used in code and is fairly easy for people to read.
+JSON एक भाषा-आधारित प्रारूप है जो कोड् में उपयोग किया जा सकता है और पढ़ने पर सहज समझ आ जाता है।
 
 ```json
-{
-  "name": "Ogre",
-  "size": 90,
-  "power": 86,
-  "intelligence": 12,
-  "magic": 0
+{  
+ "name": "Ogre",  
+ "size": 90,  
+ "power": 86,  
+ "intelligence": 12,  
+ "magic": 0 
 }
 ```
 
-A JSON **object** is a list of key-value pairs inside curly brackets `{}`.
+JSON **प्रकल्प** धनु-कोष्ठकों `{}` के बीच रखे मुख्य मान-युग्मों की सूची को कहते हैं।
 
-A value can also be a **list** inside square brackets `[]`:
+कोई भी मान **सूची** के रूप में भी लिखा जा सकता है यदि उसे वर्गाकार कोष्ठकों `[]` के बीच लिखा जाये:
 
 ```json
-{
-  "name": "Ogre",
-  "size": 90,
-  "power": 86,
-  "intelligence": 12,
-  "magic": 0,
-  "weapons" : ["club", "rock", "bone"]
+{  
+ "name": "Ogre",  
+ "size": 90,  
+ "power": 86,  
+ "intelligence": 12,  
+ "magic": 0,   "weapons" : ["club", "rock", "bone"] 
 }
 ```
