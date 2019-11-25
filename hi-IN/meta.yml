@@ -1,14 +1,14 @@
 ---
-title: What is JSON?
+title: JSON क्या है?
 hero_image: images/banner.png
-description: What is JSON?
+description: JSON क्या है?
 original_url:
 theme: cc-prototype
 duration: 1 #1, 2 or 3
 listed: false
 ingredient: true
 copyedit: false
-interests: "data"
+interests: "आंकड़े"
 technologies: "json"
 steps:
   - 
