@@ -1,28 +1,28 @@
-JSON is a format for storing and sharing data. JSON (say Jason) stands for JavaScript Object Notation, but it isn't just used with JavaScript.
+JSON - это формат для хранения и обмена данными. JSON (произносится как Джейсон) расшифровывается как нотация объектов JavaScript, но она используется не только с JavaScript.
 
-JSON is a text format that can be used in code and is fairly easy for people to read.
+JSON - это текстовый формат, который можно использовать в коде, и его довольно легко читать.
 
 ```json
 {
-  "name": "Ogre",
-  "size": 90,
-  "power": 86,
-  "intelligence": 12,
-  "magic": 0
+  "имя": "Огр",
+  "размер": 90,
+  "сила": 86,
+  "интеллект": 12,
+  "магия": 0
 }
 ```
 
-A JSON **object** is a list of key-value pairs inside curly brackets `{}`.
+**Объект** JSON представляет собой список пар "ключ-значение" внутри фигурных скобок `{}`.
 
-A value can also be a **list** inside square brackets `[]`:
+Значение также может быть **списком** внутри квадратных скобок `[]`:
 
 ```json
 {
-  "name": "Ogre",
-  "size": 90,
-  "power": 86,
-  "intelligence": 12,
-  "magic": 0,
-  "weapons" : ["club", "rock", "bone"]
+  "имя": "Огр",
+  "размер": 90,
+  "сила": 86,
+  "интеллект": 12,
+  "магия": 0
+  "оружие" : ["дубина", "камень", "кость"]
 }
 ```
