@@ -1,28 +1,28 @@
-JSON is a format for storing and sharing data. JSON (say Jason) stands for JavaScript Object Notation, but it isn't just used with JavaScript.
+JSON je formát na ukladanie a zdieľanie údajov. JSON (vyslovuje sa Džejson) je skratkou pre JavaScript Object Notation, ale nepoužíva sa len v JavaScript-e.
 
-JSON is a text format that can be used in code and is fairly easy for people to read.
+JSON je textový formát, ktorý je možné použiť v programe pre počítač a je pre ľudí ľahko čitateľný.
 
 ```json
 {
-  "name": "Ogre",
-  "size": 90,
-  "power": 86,
-  "intelligence": 12,
-  "magic": 0
+  "meno": "Ogre",
+  "veľkosť": 90,
+  "sila": 86,
+  "inteligencia": 12,
+  "mágia": 0
 }
 ```
 
-A JSON **object** is a list of key-value pairs inside curly brackets `{}`.
+JSON **objekt** je zoznamom dvojíc kľúč-hodnota vo vnútri zložených zátvoriek `{}`.
 
-A value can also be a **list** inside square brackets `[]`:
+Hodnotou môže byť aj **zoznam** vo vnútri hranatých zátvoriek `[]`:
 
 ```json
 {
-  "name": "Ogre",
-  "size": 90,
-  "power": 86,
-  "intelligence": 12,
+  "meno": "Ogre",
+  "veľkosť": 90,
+  "napájanie": 86,
+  "inteligencia": 12,
   "magic": 0,
-  "weapons" : ["club", "rock", "bone"]
+  "zbrane": ["kyjak", "kameň", "kosť"]
 }
 ```
