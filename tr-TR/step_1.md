@@ -1,28 +1,28 @@
-JSON is a format for storing and sharing data. JSON (say Jason) stands for JavaScript Object Notation, but it isn't just used with JavaScript.
+JSON veri depolamak ve paylaşmak için kullanılan bir formattır. JSON (Jason deyin), JavaScript Nesnesi Gösterimi anlamına gelir ancak yalnızca JavaScript ile kullanılmaz.
 
-JSON is a text format that can be used in code and is fairly easy for people to read.
+JSON, kodlamada kullanılabilen bir metin biçimidir ve insanların okuması için oldukça kolaydır.
 
 ```json
 {
-  "name": "Ogre",
-  "size": 90,
-  "power": 86,
-  "intelligence": 12,
-  "magic": 0
+  "isim": "Canavar",
+  "ölçü": 90,
+  "güç": 86,
+  "zeka": 12,
+  "büyü": 0
 }
 ```
 
-A JSON **object** is a list of key-value pairs inside curly brackets `{}`.
+Bir JSON **nesnesi** küme parantezleri ` {} ` içindeki anahtar/değer çiftlerinin listesidir.
 
-A value can also be a **list** inside square brackets `[]`:
+Bir değer ayrıca köşeli parantez ` [] ` içinde bir **liste** de olabilir:
 
 ```json
 {
-  "name": "Ogre",
-  "size": 90,
-  "power": 86,
-  "intelligence": 12,
-  "magic": 0,
-  "weapons" : ["club", "rock", "bone"]
+  "isim": "Canavar",
+  "ölçü": 90,
+  "güç": 86,
+  "zeka": 12,
+  "büyü": 0,
+  "silahlar" : ["kulüp", "taş"," kemik"]
 }
 ```
