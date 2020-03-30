@@ -1,28 +1,28 @@
-JSON is a format for storing and sharing data. JSON (say Jason) stands for JavaScript Object Notation, but it isn't just used with JavaScript.
+JSONとは、データを保存したり共有したりするためのフォーマットです。 JSON (ジェイソンと読みます) はJavaScript Object Notationの略ですが、JavaScriptだけで使われるものではありません。
 
-JSON is a text format that can be used in code and is fairly easy for people to read.
+JSONはコードで使用できるテキストフォーマットで、簡単に読むことができます。
 
 ```json
 {
-  "name": "Ogre",
-  "size": 90,
-  "power": 86,
-  "intelligence": 12,
-  "magic": 0
+  "名前"： "オーガ",
+  "サイズ"：90,
+  "パワー"：86,
+  "知能"：12,
+  "魔法"：0
 }
 ```
 
-A JSON **object** is a list of key-value pairs inside curly brackets `{}`.
+JSON **オブジェクト** とは、中括弧 `{}`で囲まれたキーと値のペアのリストです。
 
-A value can also be a **list** inside square brackets `[]`:
+値を**リスト**にするときは大括弧 `[]`で囲みます：
 
 ```json
 {
-  "name": "Ogre",
-  "size": 90,
-  "power": 86,
-  "intelligence": 12,
-  "magic": 0,
-  "weapons" : ["club", "rock", "bone"]
+  "名前"： "オーガ",
+  "サイズ"：90,
+  "力"：86,
+  "インテリジェンス"：12,
+  "魔法"：0,
+  "武器"： ["こん棒", "岩", "骨"]
 }
 ```
