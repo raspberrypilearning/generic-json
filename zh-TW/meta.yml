@@ -1,15 +1,15 @@
 ---
-title: What is JSON?
+title: JSON是什麼？
 hero_image: images/banner.png
-description: What is JSON?
+description: JSON是什麼？
 original_url:
 theme: cc-prototype
 duration: 1 #1, 2 or 3
 listed: false
 ingredient: true
 copyedit: false
-interests: "data"
-technologies: "json"
+interests: "數據"
+technologies: "JSON"
 steps:
   - 
     title: JSON
