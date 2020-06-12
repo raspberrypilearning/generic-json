@@ -1,28 +1,28 @@
-JSON is a format for storing and sharing data. JSON (say Jason) stands for JavaScript Object Notation, but it isn't just used with JavaScript.
+JSON是一種用於儲存和共享數據的格式。 JSON（發音為Jason）是JavaScript Object Notation的縮寫，但它不僅限用於JavaScript。
 
-JSON is a text format that can be used in code and is fairly easy for people to read.
+JSON是一種可以在代碼中使用的純文字格式，人們可以很容易地閱讀。
 
 ```json
 {
-  "name": "Ogre",
-  "size": 90,
-  "power": 86,
-  "intelligence": 12,
-  "magic": 0
+  “名稱”：“食人魔”，
+  “大小”：90，
+  “力量”：86，
+  “智能”：12，
+  “魔力”：0
 }
 ```
 
-A JSON **object** is a list of key-value pairs inside curly brackets `{}`.
+JSON **物件** 以大括號 `{}`列出所有關鍵值來表示。
 
-A value can also be a **list** inside square brackets `[]`:
+值在中括號`[]`裡可用來表示 **列表** ：
 
 ```json
 {
-  "name": "Ogre",
-  "size": 90,
-  "power": 86,
-  "intelligence": 12,
-  "magic": 0,
-  "weapons" : ["club", "rock", "bone"]
+  “名稱”：“食人魔”，
+  “大小”：90，
+  “力量”：86，
+  “智能”：12，
+  “魔力”：0，
+  “武器”：["木棍"，"石頭"，"骨頭"]
 }
 ```
