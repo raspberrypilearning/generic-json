@@ -1,6 +1,6 @@
-JSON es un formato para almacenar y compartir datos. JSON (se pronuncia 'yéison') es un acrónimo de JavaScript Object Notation (notación de objeto de Javascript) pero no solamente se usa con JavaScript.
+JSON es un formato para almacenar y compartir datos. JSON (se pronuncia «yéison») es un acrónimo de JavaScript Object Notation (notación de objeto de JavaScript) pero no solo se usa con JavaScript.
 
-JSON es un formato de texto que se puede usar en código y es bastante fácil de leer para las personas.
+JSON es un formato de texto que se puede usar en código y es bastante fácil de leer.
 
 ```json
 {
