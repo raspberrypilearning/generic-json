@@ -1,6 +1,6 @@
 JSON est un format de stockage et de partage de données. JSON (prononcé "Jason") signifie JavaScript Object Notation, mais il n'est pas utilisé uniquement avec JavaScript.
 
-JSON est un format de texte qui peut être utilisé dans le code et est assez facile à lire.
+JSON est un format de texte qui peut être utilisé du code et est assez facile à lire.
 
 ```json
 {
