@@ -1,4 +1,4 @@
-JSON to format przechowywania i udostępniania danych. JSON (wymawiaj Jason) oznacza JavaScript Object Notation, ale nie jest on używany tylko w JavaScript.
+JSON to format przechowywania i udostępniania danych. JSON (wymawiaj dżejson) oznacza JavaScript Object Notation, ale nie jest on używany tylko w JavaScript.
 
 JSON to format tekstowy, który może być używany w kodzie i jest dość łatwy do zrozumienia.
 
@@ -12,7 +12,7 @@ JSON to format tekstowy, który może być używany w kodzie i jest dość łatw
 }
 ```
 
-**Obiekt** JSON jest listą klucz-wartość par wewnątrz nawiasów klamrowych `{}`.
+**Obiekt** JSON jest listą par klucz-wartość wewnątrz nawiasów klamrowych `{}`.
 
 Wartością może być również **lista** w nawiasach kwadratowych `[]`:
 
